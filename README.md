@@ -539,24 +539,19 @@ flowchart TD
 <summary><h2>Project Structure</h2></summary>
 
 ```
-## Project Structure
-
-```text
 Kitchen-Safety-Heat-Gas-Monitoring/
 │
 ├── README.md
-│
+|
 ├── Project_Images/
 │   ├── .gitkeep
 │       └── (Block Diagram + LCD output screenshots)
-│
 ├── EXT_interrupt1.c
 ├── mini_project1.c
 ├── mini_project1.h
 ├── mini_project1_defines.h
 ├── mini_project1_func.h
 └── mini_project1_main.h
-```
 
 ```
 
