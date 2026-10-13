@@ -539,27 +539,25 @@ flowchart TD
 <summary><h2>Project Structure</h2></summary>
 
 ```
+## Project Structure
+
+```text
 Kitchen-Safety-Heat-Gas-Monitoring/
 │
 ├── README.md
 │
-├── src/
-│   ├── main.c
-│   └── application source files
-│
-├── inc/
-│   └── project header files
-│
-├── docs/
-│   ├── project-specification.pdf
-│   └── images/
+├── Project_Images/
+│   ├── .gitkeep
 │       └── (Block Diagram + LCD output screenshots)
 │
-├── proteus/
-│   └── simulation files
-│
-└── keil/
-    └── Keil project files
+├── EXT_interrupt1.c
+├── mini_project1.c
+├── mini_project1.h
+├── mini_project1_defines.h
+├── mini_project1_func.h
+└── mini_project1_main.h
+```
+
 ```
 
 > Keep this section synchronized with the actual repository — do not create directories only to match this example.
@@ -692,6 +690,6 @@ Per the supplied specification, this project follows:
 <details>
 <summary><h2>Author</h2></summary>
 
-**Koteswar Rao Golagani**
+**Lokesh Uddagiri**
 
 </details>
